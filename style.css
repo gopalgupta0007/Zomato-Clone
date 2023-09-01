@@ -1,0 +1,186 @@
+body {
+    width: 100vw;
+    height: 200vh;
+    box-sizing: border-box;
+    font-size: 1.5rem;
+    color: white;
+    overflow-x: hidden;
+}
+
+header {
+    height: 70vh;
+    position: relative;
+    top: -20px;
+    left: -10px;
+}
+
+ul {
+    position: relative;
+    z-index: 3;
+    list-style-type: none;
+    display: flex;
+    gap: 20px;
+}
+
+#nav {
+    position: relative;
+    z-index: 1;
+    margin: 20px;
+}
+
+#sup-nav-bar {
+    width: 80%;
+    margin: auto;
+}
+
+#getApp {
+    position: relative;
+    z-index: 5;
+    top: 20px;
+    font-size: 1rem;
+}
+
+#right-navbar {
+    padding: 5px;
+}
+
+#headerImg {
+    width: 100%;
+    z-index: -1;
+    position: absolute;
+}
+
+#o-nav {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+#Zomato-heading {
+    text-align: center;
+    font-weight: bolder;
+    font-size: 5rem;
+    font-family: 'Roboto', sans-serif;
+    font-style: italic;
+}
+
+#description {
+    text-align: center;
+}
+
+.search-container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+form {
+    display: flex;
+    background-color: white;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+input,
+button[type="submit"] {
+    padding: 20px;
+    background-color: white;
+    border-color: #fff;
+}
+
+button {
+    border-right: 2px solid #fff;
+}
+
+input {
+    width: 500px;
+    outline: none;
+}
+
+#card-order,
+#lists-container {
+    width: 100vw;
+    margin-top: 25px;
+    color: black;
+}
+
+#cards {
+    width: 80%;
+    margin: auto;
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+}
+
+#card-order>#cards>div {
+    border-radius: 20px;
+    padding-bottom: -50px;
+    box-shadow: 2px 2px 5px black;
+    transition: ease-in-out .2s;
+}
+
+.orderImg {
+    overflow: hidden;
+}
+
+#card-order>#cards>div:hover {
+    transform: scale(1.05);
+}
+
+
+
+#lists {
+    width: 80%;
+    margin: auto;
+    /* display: flex;
+    gap: 20px;
+    justify-content: center; */
+}
+
+.list {
+    margin: 5px;
+}
+
+.collapsible {
+    background-color: #eee;
+    /* border: 2px solid #000; */
+    border-color: black;
+    color: #444;
+    cursor: pointer;
+    padding: 18px;
+    width: 100%;
+    border: none;
+    text-align: left;
+    outline: none;
+    font-size: 15px;
+}
+
+/* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
+.active,
+.collapsible:hover {
+    background-color: #ddd;
+}
+
+/* Style the collapsible content. Note: hidden by default */
+.content {
+    padding: 0 18px;
+    display: none;
+    overflow: hidden;
+    background-color: #fff;
+}
+
+
+#getApp{
+    margin-top: 30px;
+}
+
+#getAppImg{
+    width: 100%;
+}
+
+footer{
+    width: 100%;
+    background-color: #555;
+    color: white;
+    margin-top: 30px;
+}
